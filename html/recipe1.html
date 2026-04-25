@@ -1,38 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffle Recipe</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-<h1>Waffle Recipe</h1>
+<header>
+    <h1>My Favorite Recipe</h1>
 
-<img src="../image/waffles.jpg" alt="Waffle" width="300">
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="waffle.html">Waffle Recipe</a>
+    </nav>
+</header>
 
-<h2>Ingredients</h2>
-<ul>
-    <li>2 cups flour</li>
-    <li>2 eggs</li>
-    <li>1 1/2 cups milk</li>
-    <li>1 tbsp sugar</li>
-</ul>
+<main>
 
-<h2>Instructions</h2>
-<ol>
-    <li>Mix ingredients</li>
-    <li>Pour into waffle maker</li>
-    <li>Cook until golden</li>
-</ol>
+    <section class="recipe-page">
 
-<br>
+        <div class="recipe-text">
+            <h2>Waffles</h2>
 
-<a href="../index.html">Back to Home</a>
+            <p>
+                Source:
+                <a href="https://www.allrecipes.com/recipe/20513/classic-waffles/" target="_blank">
+                    Classic Waffles Recipe
+                </a>
+            </p>
+
+            <h3>Ingredients</h3>
+
+            <ul>
+                <li>2 cups flour</li>
+                <li>2 eggs</li>
+                <li>1 3/4 cups milk</li>
+                <li>1/2 cup oil</li>
+                <li>1 tablespoon sugar</li>
+            </ul>
+
+            <h3>Rate This Recipe</h3>
+
+            <fieldset>
+                <legend>How difficult is this recipe?</legend>
+
+                <input type="radio" id="easy" name="difficulty" value="easy">
+                <label for="easy">Easy</label>
+
+                <input type="radio" id="intermediate" name="difficulty" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+
+                <input type="radio" id="hard" name="difficulty" value="hard">
+                <label for="hard">Hard</label>
+            </fieldset>
+
+            <h3>Conversion</h3>
+
+            <label for="tablespoons">Tablespoons</label>
+            <input type="text" id="tablespoons" name="tablespoons">
+
+            <span>=</span>
+
+            <label for="cups">Cups</label>
+            <input type="text" id="cups" name="cups">
+
+            <h3>Directions</h3>
+
+            <ol>
+                <li>Mix all ingredients in a bowl.</li>
+                <li>Heat the waffle maker.</li>
+                <li>Pour batter into waffle maker.</li>
+                <li>Cook until golden brown.</li>
+            </ol>
+        </div>
+
+        <figure>
+            <img src="../image/waffle.jpg" alt="Delicious homemade waffles">
+            <figcaption>Delicious homemade waffles</figcaption>
+        </figure>
+
+    </section>
+
+    <p>
+        <a href="../index.html">Back to Home</a>
+    </p>
+
+</main>
 
 <footer>
-    <p>This is a student project for educational purposes.</p>
-    <p><a href="https://www.bellevuecollege.edu/">Bellevue College</a></p>
+    <p>This page was created as an academic activity only.</p>
+    <p>
+        <a href="https://www.bellevuecollege.edu/">Bellevue College</a>
+    </p>
 </footer>
 
 </body>
