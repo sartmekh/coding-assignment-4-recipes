@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Waffle Recipe</title>
+
+    <!-- IMPORTANT: correct path -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -20,73 +22,71 @@
 
 <main>
 
-    <section class="recipe-page">
+<section class="recipe-page">
 
-        <div class="recipe-text">
-            <h2>Waffles</h2>
-
-            <p>
-                Source:
-                <a href="https://www.allrecipes.com/recipe/20513/classic-waffles/" target="_blank">
-                    Classic Waffles Recipe
-                </a>
-            </p>
-
-            <h3>Ingredients</h3>
-
-            <ul>
-                <li>2 cups flour</li>
-                <li>2 eggs</li>
-                <li>1 3/4 cups milk</li>
-                <li>1/2 cup oil</li>
-                <li>1 tablespoon sugar</li>
-            </ul>
-
-            <h3>Rate This Recipe</h3>
-
-            <fieldset>
-                <legend>How difficult is this recipe?</legend>
-
-                <input type="radio" id="easy" name="difficulty" value="easy">
-                <label for="easy">Easy</label>
-
-                <input type="radio" id="intermediate" name="difficulty" value="intermediate">
-                <label for="intermediate">Intermediate</label>
-
-                <input type="radio" id="hard" name="difficulty" value="hard">
-                <label for="hard">Hard</label>
-            </fieldset>
-
-            <h3>Conversion</h3>
-
-            <label for="tablespoons">Tablespoons</label>
-            <input type="text" id="tablespoons" name="tablespoons">
-
-            <span>=</span>
-
-            <label for="cups">Cups</label>
-            <input type="text" id="cups" name="cups">
-
-            <h3>Directions</h3>
-
-            <ol>
-                <li>Mix all ingredients in a bowl.</li>
-                <li>Heat the waffle maker.</li>
-                <li>Pour batter into waffle maker.</li>
-                <li>Cook until golden brown.</li>
-            </ol>
-        </div>
-
-        <figure>
-            <img src="../image/waffle.jpg" alt="Delicious homemade waffles">
-            <figcaption>Delicious homemade waffles</figcaption>
-        </figure>
-
-    </section>
+<div class="recipe-text">
+    <h2>Waffles</h2>
 
     <p>
-        <a href="../index.html">Back to Home</a>
+        Source:
+        <a href="https://www.allrecipes.com/recipe/20513/classic-waffles/" target="_blank">
+            Classic Waffles Recipe
+        </a>
     </p>
+
+    <h3>Ingredients</h3>
+    <ul>
+        <li>2 cups flour</li>
+        <li>2 eggs</li>
+        <li>1 3/4 cups milk</li>
+        <li>1/2 cup oil</li>
+        <li>1 tablespoon sugar</li>
+    </ul>
+
+    <h3>Rate This Recipe</h3>
+    <fieldset>
+        <legend>How difficult is this recipe?</legend>
+
+        <input type="radio" id="easy" name="difficulty">
+        <label for="easy">Easy</label>
+
+        <input type="radio" id="medium" name="difficulty">
+        <label for="medium">Intermediate</label>
+
+        <input type="radio" id="hard" name="difficulty">
+        <label for="hard">Hard</label>
+    </fieldset>
+
+    <h3>Conversion</h3>
+    <label>Tablespoons</label>
+    <input type="text">
+
+    <span>=</span>
+
+    <label>Cups</label>
+    <input type="text">
+
+    <h3>Directions</h3>
+    <ol>
+        <li>Mix all ingredients in a bowl.</li>
+        <li>Heat the waffle maker.</li>
+        <li>Pour batter into waffle maker.</li>
+        <li>Cook until golden brown.</li>
+    </ol>
+
+</div>
+
+<figure>
+    <!-- FIXED IMAGE NAME -->
+    <img src="../image/waffles.jpg" alt="Waffles">
+    <figcaption>Delicious homemade waffles</figcaption>
+</figure>
+
+</section>
+
+<p>
+    <a href="../index.html">Back to Home</a>
+</p>
 
 </main>
 
