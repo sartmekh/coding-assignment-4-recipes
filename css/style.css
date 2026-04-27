@@ -11,6 +11,10 @@ header {
     padding: 15px;
 }
 
+.mk {
+    background-color: #a14612;
+}
+
 nav a {
     color: white;
     margin-right: 15px;
